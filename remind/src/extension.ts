@@ -20,10 +20,7 @@ export function activate(context: vscode.ExtensionContext) {
 		vscode.window.showInformationMessage('Hello World from remind!');
 		
 	});
-
-	let a=1;
-	let b=2;
-
+	
 	context.subscriptions.push(disposable);
 }
 
